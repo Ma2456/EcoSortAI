@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+.pytest_cache/
+backend/.env
+backend/model/*.pth
+backend/model/*.pt
+backend/model/model_config.json
+
+# Saved evaluation runs (results only, never datasets)
+backend/evaluation_runs/

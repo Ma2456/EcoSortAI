@@ -1,0 +1,14 @@
+{
+  "name": "ecosort-resnet50-v1",
+  "checkpoint": "waste_classifier.pth",
+  "format": "state_dict",
+  "architecture": "resnet50",
+  "class_names": ["plastic", "paper", "metal", "organic", "ewaste", "glass", "hazardous"],
+  "class_to_category": {},
+  "input_size": 224,
+  "mean": [0.485, 0.456, 0.406],
+  "std": [0.229, 0.224, 0.225],
+  "resize": "center_crop",
+  "uncertainty_threshold": 0.55,
+  "gradcam_target_layer": "layer4"
+}

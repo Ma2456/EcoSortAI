@@ -1,0 +1,2 @@
+# YOLO-format sample: one box per image around the station bin
+names: [ewaste, glass, hazardous, metal, organic, paper_cardboard, plastic]

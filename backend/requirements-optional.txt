@@ -1,0 +1,5 @@
+# YOLO object detection (set ECOSORT_DETECTOR_WEIGHTS=path/to/weights.pt)
+ultralytics>=8.2
+
+# Zero-shot CLIP baseline (ECOSORT_BACKEND=clip). NOT a trained waste model.
+transformers>=4.40
